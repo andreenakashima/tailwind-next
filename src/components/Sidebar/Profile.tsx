@@ -1,4 +1,5 @@
 import { LogOut } from "lucide-react";
+import { Button } from "../Button";
 
 const Profile = () => {
 	return (
@@ -18,9 +19,9 @@ const Profile = () => {
 				</span>
 			</div>
 
-			<button type="button" className="ml-auto p-2 hover:bg-zinc-50 rounded-md">
+			<Button type="button" variant="ghost">
 				<LogOut className="w-5 h-5 text-zinc-500" />
-			</button>
+			</Button>
 		</div>
 	);
 };
