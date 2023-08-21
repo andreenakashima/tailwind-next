@@ -17,7 +17,7 @@ import * as Input from "../Input";
 
 const Sidebar = () => {
 	return (
-		<aside className="flex flex-col gap-6 px-5 py-8 border-r border-zinc-200">
+		<aside className="fixed top-0 left-0 right-0 bottom-0 z-20 bg-white border-b  flex flex-col gap-6 p-4 border-zinc-200 lg:right-auto lg:w-80 lg:border-r lg:px-5 lg:py-8 lg:relative">
 			<Logo />
 
 			<Input.Root>
